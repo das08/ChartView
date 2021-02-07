@@ -110,7 +110,7 @@ public struct LineChartView: View {
                 }
                 .frame(width: frame.width, height: frame.height + 30)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
-                .offset(x: 0, y: -30)
+                .offset(x: 0, y: 0)
             }.frame(width: self.formSize.width, height: self.formSize.height)
         }
         .gesture(DragGesture()
