@@ -58,7 +58,7 @@ public struct LineView: View {
                             .font(.callout)
                             .foregroundColor(self.colorScheme == .dark ? self.darkModeStyle.legendTextColor : self.style.legendTextColor)
                     }
-                }.offset(x: 0, y: 20)
+                }.offset(x: 20, y: 0)
                 ZStack {
                     GeometryReader { reader in
                         Rectangle()
